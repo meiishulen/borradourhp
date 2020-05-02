@@ -1,5 +1,5 @@
 package app;
 
-public class Escoba {
+public class Escoba extends Transporte {
     
 }

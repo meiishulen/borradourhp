@@ -5,6 +5,27 @@ public class Harry extends Persona {
     private int edad= 14;
     private int salud= 1;
 
+    public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+
+    public int getEdad(){
+        return this.edad;
+    }
+    public void setEdad( int edad){
+        this.edad = edad;
+    }
+
+    public int getSalud(){
+        return this.salud;
+    }
+    public void setSalud( int salud){
+        this.salud= salud;
+    }
+
     public Harry(String nombre, int edad, int salud) {
         super(nombre, edad, salud);
         // TODO Auto-generated constructor stub
